@@ -60,6 +60,7 @@ public class Testclass_login_out_testNG extends logout_pom_ddf_testng_basecls
 		String expid = logout_pom_ddf_testNG_utilitycls.getproperties("uid");
 		Assert.assertEquals(actid, expid,"TC is passed");		
 		Thread.sleep(3000);
+		System.out.println("i added something in logout");
 	}
 	@AfterMethod
 	public void getScreenshot(ITestResult result) throws IOException, InterruptedException
