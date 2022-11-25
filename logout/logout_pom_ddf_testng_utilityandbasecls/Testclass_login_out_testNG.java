@@ -62,6 +62,7 @@ public class Testclass_login_out_testNG extends logout_pom_ddf_testng_basecls
 		Thread.sleep(3000);
 		System.out.println("i added something in logout");
 		System.out.println("i dont added something in logout");
+		System.out.println("i really wanted to know you");
 	}
 	@AfterMethod
 	public void getScreenshot(ITestResult result) throws IOException, InterruptedException
