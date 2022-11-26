@@ -65,6 +65,11 @@ public class Testclass_login_out_testNG extends logout_pom_ddf_testng_basecls
 		System.out.println("i really wanted to know you");
 		System.out.println("i love you ankita");
 	}
+	 @Test
+	 public void tri()
+	 {
+		 System.out.println("Api testing is still pending");
+	 }
 	@AfterMethod
 	public void getScreenshot(ITestResult result) throws IOException, InterruptedException
 	{
