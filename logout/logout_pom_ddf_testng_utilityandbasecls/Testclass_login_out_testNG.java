@@ -70,6 +70,11 @@ public class Testclass_login_out_testNG extends logout_pom_ddf_testng_basecls
 	 {
 		 System.out.println("Api testing is still pending");
 	 }
+	 @Test 
+	 public void kokne()
+	 {
+		 System.out.println("DB is still pending");
+	 }
 	@AfterMethod
 	public void getScreenshot(ITestResult result) throws IOException, InterruptedException
 	{
